@@ -54,19 +54,14 @@ average_net_change = sum(net_changes)/ len(net_changes) if net_changes else 0
 
 
 # Print the output
-output = (
-f"Financial Analysis \n"
-f"----------------------------  \n"
+output= (f"Financial Analysis \n"
+"----------------------------\n"
 f"Total Months: {str(total_months)} \n"
 f"Total: ${total_net} \n"
-f"Average Change: ${average_net_change} \n"
+f"Average Change: ${average_net_change:.2f} \n"
 f"Greatest Increase In Profits: {greatest_inc[0]} ({greatest_inc[1]}) \n"
-f"Greatest Decrease In Profits: {greatest_dec[0]} ({greatest_dec [1]}) \n"
-)
-
-#print the output
+f"Greatest Decrease In Profits: {greatest_dec[0]} ({greatest_dec [1]}) \n")
 print(output)
-
 # Write the results to a text file
 with open(file_to_output, "w") as txt_file:
     txt_file.write(output)
