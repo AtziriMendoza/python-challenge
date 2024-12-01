@@ -1,5 +1,5 @@
 # python-challenge
-In this repo, I was able to take a deep dive into loops with python and how to use these leeps to properly analyze both PyBank data (finance data regarding profit and losses) and PyPoll data (data regarding an election). 
+In this repo, I was able to take a deep dive into loops with python and how to use these loops to properly analyze both PyBank data (finance data regarding profit and losses) and PyPoll data (data regarding an election). 
 For PyBank I had to do the following:
 
   -The total number of months included in the dataset
