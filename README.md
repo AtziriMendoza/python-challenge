@@ -1,1 +1,1 @@
-Hi, all of my completed work can be found in the Starter Code folder the files with the code will be labeled PyBankFinal and PyPollFinal.
+All of my completed work can be found in the Starter Code folder, the files with the code will be labeled PyBankFinal and PyPollFinal. The outputs of each file will be in a .gitkeep.
