@@ -12,6 +12,7 @@ file_to_output = os.path.join("analysis", "budget_analysis.txt")  # Output file 
 # Define variables to track the financial data
 total_months = 0
 total_net = 0
+net_changes = 
 # Add more variables to track other necessary financial data
 
 # Open and read the csv
@@ -31,8 +32,8 @@ with open(file_to_load) as financial_data:
     for row in reader:
 
         # Track the total
-
-
+        date = row[0]
+        profit_lo
         # Track the net change
 
 
